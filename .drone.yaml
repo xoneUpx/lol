@@ -7,4 +7,4 @@ steps:
   image: alpine
   commands:
   - echo helloz
-  - echo world
+  - echo worldz
