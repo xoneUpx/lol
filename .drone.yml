@@ -8,3 +8,12 @@ steps:
   commands:
   - echo helloz
   - echo worldz
+
+- name: docker
+  image: plugins/docker
+  settings:
+    #username: kevinbacon
+    #password: pa55word
+    dockerfile: Dockerfile
+    repo: 10.10.10.3:8080/dind/tests
+    registry: 10.10.10.3:8080/dind
