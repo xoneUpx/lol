@@ -15,5 +15,5 @@ steps:
     #username: kevinbacon
     #password: pa55word
     dockerfile: Dockerfile
-    repo: 10.10.10.3:8080/dind/tests
-    registry: 10.10.10.3:8080/dind
+    repo: 10.10.10.3:8080/tests
+    registry: 10.10.10.3:8080
